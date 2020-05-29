@@ -1,0 +1,87 @@
+{
+  "s1": [
+    {
+      "port": 10,
+      "channel": 0,
+      "speed": 7,
+      "flood": false,
+      "loopback": true
+    },
+    {
+      "port": 17,
+      "channel": 0,
+      "speed": 7,
+      "flood": true
+    },
+    {
+      "port": 2,
+      "channel": 0,
+      "speed": 7,
+      "flood": true
+    },
+    {
+      "port": 3,
+      "channel": 0,
+      "speed": 7,
+      "flood": true
+    },
+    {
+      "port": 4,
+      "channel": 0,
+      "speed": 7,
+      "flood": true
+    },
+    {
+      "port": 5,
+      "channel": 0,
+      "speed": 2,
+      "flood": true
+    },
+    {
+      "port": 5,
+      "channel": 1,
+      "speed": 2,
+      "flood": true
+    },
+    {
+      "port": 9,
+      "channel": 0,
+      "speed": 7,
+      "flood": false
+    },
+    {
+      "port": 15,
+      "channel": 0,
+      "speed": 7,
+      "flood": true
+    },
+    {
+      "port": 29,
+      "channel": 0,
+      "speed": 7,
+      "flood": false,
+      "loopback": true
+    },
+    {
+      "port": 30,
+      "channel": 0,
+      "speed": 7,
+      "flood": false,
+      "mirror": true
+    },
+    {
+      "port": 31,
+      "channel": 0,
+      "speed": 7,
+      "flood": false,
+      "mirror": true
+    },
+    {
+      "port": 32,
+      "channel": 0,
+      "speed": 7,
+      "flood": false,
+      "mirror": true
+    }
+  ]
+}

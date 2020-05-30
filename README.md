@@ -25,7 +25,8 @@ FRR is implemented based on port monitoring. Tofino generates a special packet w
 Register<bit<1>, PortId_t>(2069, 0) port_status_reg;
 ```
 
-After the CBs are processed, e.g. IP oder BIER, the egress_port is specified. Afterwards, the Port-CB (src/controls/Port.p4) checks if the port is up.
+After the CBs are processed, e.g. IP oder BIER, the egress_port is specified. 
+Afterwards, the Port-CB (src/controls/Port.p4) checks if the port is up (see src/ingress.p4).
 
 If the port is not up, the corresponding FRR-CBs are processed.
 
